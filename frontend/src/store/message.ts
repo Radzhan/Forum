@@ -5,7 +5,7 @@ import { Api, MessageApi } from "../types";
 
 interface MessageInterface {
     messageArray: MessageApi[];
-};
+}
 
 const initialState: MessageInterface = {
     messageArray: [],
