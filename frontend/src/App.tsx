@@ -23,7 +23,7 @@ function App() {
   }, [getNewMesage])
 
   const createCards = MessageArray.map((element) => {
-    return <Card message={element.message} key={element.id} author={element.author}></Card>
+    return <Card message={element.message} key={element.id} author={element.author} image={element.image}></Card>
   });
 
   const fileInputChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
